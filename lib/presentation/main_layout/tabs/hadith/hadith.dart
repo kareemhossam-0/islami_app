@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../config/theme/assets_manager.dart';
+import '../../../../core/resources/assets_manager.dart';
 import 'widgets/hadith_card.dart';
 
 class Hadith extends StatelessWidget {

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
-import '../../config/theme/assets_manager.dart';
-import '../../config/theme/colors_manager.dart';
+
+import '../../core/resources/assets_manager.dart';
+import '../../core/resources/colors_manager.dart';
 import '../../core/routes/routes_manger.dart';
 
 

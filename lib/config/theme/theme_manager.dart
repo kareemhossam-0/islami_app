@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quran_app/config/resources/colors_manager.dart';
+
+import '../../core/resources/colors_manager.dart';
 
 class ThemeManager {
   static final ThemeData light = ThemeData(

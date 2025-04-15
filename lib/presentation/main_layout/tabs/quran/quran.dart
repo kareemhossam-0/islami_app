@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:quran_app/presentation/main_layout/tabs/quran/widgets/most_recent_card.dart';
 import 'package:quran_app/presentation/main_layout/tabs/quran/widgets/sura_item.dart';
 
-import '../../../../config/theme/assets_manager.dart';
-import '../../../../config/theme/colors_manager.dart';
+
+import '../../../../core/resources/assets_manager.dart';
+import '../../../../core/resources/colors_manager.dart';
 import '../../../../core/resources/constant_manager.dart';
 
 class Quran extends StatefulWidget {

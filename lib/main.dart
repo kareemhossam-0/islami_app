@@ -1,8 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:quran_app/config/routes/routes_manger.dart';
-
 import 'config/theme/theme_manager.dart';
+import 'core/routes/routes_manger.dart';
 
 void main() {
 

@@ -1,10 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:quran_app/core/resources/colors_manager.dart';
 
-import '../../config/resources/assets_manager.dart';
-import '../../config/resources/colors_manager.dart';
-import '../../config/routes/routes_manger.dart';
+import '../../core/resources/assets_manager.dart';
+import '../../core/routes/routes_manger.dart';
+
 
 
 class Splash extends StatefulWidget {
@@ -23,11 +24,10 @@ class _SplashState extends State<Splash> {
   }
 
   void _navigate() {
-    // Future.delayed(const Duration(seconds: 2), () {
-    //   Navigator.pushReplacementNamed(context, RoutesManager.mainLayout);
-    // });
-    /// duration -> build thread
-    /// navigate
+    Future.delayed(const Duration(seconds: 2), () {
+      Navigator.pushReplacementNamed(context, RoutesManager.onBording);
+    });
+
     Timer(
       const Duration(seconds: 2),
       () {

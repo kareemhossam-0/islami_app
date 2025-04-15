@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../config/theme/colors_manager.dart';
+import '../../../core/resources/colors_manager.dart';
 
 class SuraContent extends StatelessWidget {
   const SuraContent({super.key, required this.content});

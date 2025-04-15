@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:quran_app/presentation/quran_details/widgets/sura_content.dart';
 
 import '../../DM/quran_detailsDM.dart';
-import '../../config/theme/assets_manager.dart';
-import '../../config/theme/colors_manager.dart';
+import '../../core/resources/assets_manager.dart';
+import '../../core/resources/colors_manager.dart';
 import '../../core/widgets/loading_widget.dart';
 
 class QuranDetails extends StatefulWidget {

@@ -30,5 +30,8 @@ class AssetsManager {
   static const String hadithTabBackgroundImage =
       "$base/hadith_tab_background.png";
 
-  static const String sebhaBackgorund ='$base/subha_background.png';
+  static const String sebhaBackgorund ='$base/Background sebha.png';
+  static const String headSebha ='$base/headSebha.png';
+  static const String sebhaBody ='$base/SebhaBody 1.png';
+
 }

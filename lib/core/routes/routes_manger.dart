@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quran_app/presentation/hadith_details/hadith_details.dart';
 import 'package:quran_app/presentation/main_layout/main_layout.dart';
 import 'package:quran_app/presentation/onboarding/onboarding.dart';
 import 'package:quran_app/presentation/quran_details/quran_details.dart';
@@ -10,6 +11,7 @@ class RoutesManager {
   static const main_layout = '/main_layout';
   static const onBording ='/onBording';
   static const quranDetails='/quranDetails';
+  static const hadithDetails='/hadithDetails';
 
 
 
@@ -18,6 +20,7 @@ class RoutesManager {
     main_layout:(_)=>  MainLayout(),
     onBording:(_)=>  OnBoarding(),
     quranDetails:(_)=> QuranDetails(),
+    hadithDetails: (_)=> HadithDetails(),
 
   };
 }

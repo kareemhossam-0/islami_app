@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-
-import '../../../../../config/theme/assets_manager.dart';
-import '../../../../../config/theme/colors_manager.dart';
 import '../../../../../core/prefs_manager/prefs_manager.dart';
+import '../../../../../core/resources/assets_manager.dart';
+import '../../../../../core/resources/colors_manager.dart';
 import '../../../../../core/resources/constant_manager.dart';
 
 class MostRecent extends StatefulWidget {

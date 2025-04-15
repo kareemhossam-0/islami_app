@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:quran_app/presentation/main_layout/tabs/hadith/widgets/hadith_card.dart';
 import 'package:quran_app/presentation/main_layout/tabs/hadith/widgets/hadith_content.dart';
 
-import '../../config/theme/colors_manager.dart';
 import '../../core/resources/assets_manager.dart';
+import '../../core/resources/colors_manager.dart';
 
 class HadithDetails extends StatefulWidget {
   const HadithDetails({super.key});
